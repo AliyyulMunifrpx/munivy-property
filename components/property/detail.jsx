@@ -260,10 +260,10 @@ export default function PropertyDetailPage({ slug }) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
-            className="sticky top-24 p-8 bg-black text-white rounded-2xl shadow-xl flex flex-col gap-8"
+            className="sticky top-24 p-8 bg-primary text-white rounded-2xl shadow-xl flex flex-col gap-8"
           >
             <div className="flex flex-col gap-2">
-              <p className="text-xs font-semibold uppercase tracking-wider text-primary">
+              <p className="text-xs font-semibold uppercase tracking-wider text-white">
                 Tertarik Dengan Properti Ini?
               </p>
               <h3 className="text-2xl font-bold">
@@ -276,23 +276,23 @@ export default function PropertyDetailPage({ slug }) {
             </div>
 
             <div className="flex flex-col gap-4 border-t border-white/10 pt-4">
-              <a
+              <Link
                 href={`https://wa.me/${base.whatsapp}?text=${whatsappMessage}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full px-8 py-4 bg-primary text-white font-bold text-sm rounded-full hover:bg-white hover:text-black transition-colors duration-300 flex items-center justify-center gap-2 cursor-pointer shadow-md"
+                className="w-full px-8 py-4 bg-white text-black font-bold text-sm rounded-full hover:bg-primary hover:text-white transition-colors duration-300 flex items-center justify-center gap-2 cursor-pointer"
               >
                 <FaWhatsapp className="text-base" />
                 <span>Tanya via WhatsApp</span>
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href={`tel:${base.whatsapp}`}
                 className="w-full px-8 py-4 bg-white text-black font-bold text-sm rounded-full hover:bg-primary hover:text-white transition-colors duration-300 flex items-center justify-center gap-2 cursor-pointer"
               >
                 <FaPhone className="text-xs" />
                 <span>Hubungi {base.whatsappDisplay}</span>
-              </a>
+              </Link>
             </div>
 
             <div className="flex flex-col gap-2 border-t border-white/10 pt-4 text-xs text-white/60">

@@ -146,7 +146,6 @@ export default function PropertyPage() {
                 <option value="rumah">Rumah</option>
                 <option value="ruko">Ruko</option>
                 <option value="apartemen">Apartemen</option>
-                <option value="villa">Villa</option>
                 <option value="tanah">Tanah</option>
               </select>
             </div>

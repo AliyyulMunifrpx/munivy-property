@@ -7,7 +7,7 @@ import { base } from "../../data/base.js";
 const testimonials = [
   {
     name: "Budi Santoso",
-    role: "Pembeli Rumah di Sleman",
+    role: "Pembeli Rumah di Tangerang Selatan",
     comment:
       "Proses pencarian hingga transaksi sangat transparan. Desain hunian sesuai ekspektasi dan pelayanan agen sangat profesional.",
     rating: 5,
@@ -23,7 +23,7 @@ const testimonials = [
   },
   {
     name: "Hendrik Wijaya",
-    role: "Investor Properti Villa",
+    role: "Investor Properti Apartemen",
     comment: `${base.name} memberikan pilihan properti bereputasi tinggi dengan potensi investasi yang jelas. Rekomendasi terbaik untuk pencarian properti.`,
     rating: 5,
     initial: "H",

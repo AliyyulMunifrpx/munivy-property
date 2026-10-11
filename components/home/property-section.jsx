@@ -18,7 +18,7 @@ export default function PropertySection() {
         className="text-center mb-8 flex flex-col items-center"
       >
         <h2 className="text-3xl md:text-4xl font-bold text-black mb-2">
-          Properti Populer
+          Properti
         </h2>
         <p className="text-sm text-black/80 max-w-md">
           Koleksi lengkap rumah, ruko, apartemen, hingga tanah siap bangun
@@ -55,7 +55,7 @@ export default function PropertySection() {
       >
         <Link
           href="/properti"
-          className="px-4 py-2 bg-black w-fit mx-auto text-white hover:bg-primary rounded-full transition-colors duration-300 block"
+          className="px-4 py-2 bg-primary w-fit mx-auto text-white hover:bg-black rounded-full transition-colors duration-300 block"
         >
           Lihat semua properti
         </Link>

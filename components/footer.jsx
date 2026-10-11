@@ -8,6 +8,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa6";
 import { base } from "../data/base.js";
+import Image from "next/image.js";
 
 const navLinks = [
   { name: "Beranda", href: "/" },
@@ -24,6 +25,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand Column */}
           <div className="flex flex-col gap-4 md:col-span-2">
+            <Image
+              alt={`${base.name} logo`}
+              src="/assets/logo.webp"
+              width={40}
+              height={40}
+              
+            />{" "}
             <h3 className="text-2xl font-bold tracking-tight text-white">
               {base.name}
             </h3>

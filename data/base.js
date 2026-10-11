@@ -1,22 +1,22 @@
 export const base = {
-  name: "Munivy",
+  name: "Prime Realty",
   businessType: "Agen Properti",
   tagline: "Temukan Properti yang Tepat untuk Masa Depanmu.",
   description:
-    "Munivy membantu Anda menemukan properti yang sesuai dengan kebutuhan, preferensi, dan rencana investasi Anda.",
+    "Prime Realty membantu Anda menemukan properti yang sesuai dengan kebutuhan, preferensi, dan rencana investasi Anda.",
 
-  city: "Magelang",
-  address: "Bandongan, Magelang, Jawa Tengah",
+  city: "South Tangerang",
+  address: "Bintaro Trade Center Blok B1 no 11, South Tangerang 15224",
 
-  whatsapp: "6282329475745",
-  whatsappDisplay: "0823-2947-5745",
-  email: "info@munivy.com",
-  instagram: "munivyproperty",
+  whatsapp: "08118881233",
+  whatsappDisplay: "0811-888-1233",
+  email: "info@primerealty.com",
+  instagram: "primerealty.indonesia",
 
   about: {
     title: "Lebih dari Sekadar Properti",
     story:
-      "Kami percaya bahwa setiap properti memiliki cerita dan peluangnya sendiri. Munivy hadir untuk membantu Anda menemukan pilihan properti yang tepat, baik untuk tempat tinggal maupun investasi.",
+      "Kami percaya bahwa setiap properti memiliki cerita dan peluangnya sendiri. Prime Realty hadir untuk membantu Anda menemukan pilihan properti yang tepat, baik untuk tempat tinggal maupun investasi.",
     vision:
       "Menjadi mitra properti yang dipercaya dalam membantu masyarakat menemukan properti yang sesuai dengan tujuan mereka.",
     mission: [

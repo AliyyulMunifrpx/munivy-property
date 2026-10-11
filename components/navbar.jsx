@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Link from "next/link.js";
 import { FaBars, FaXmark } from "react-icons/fa6";
+import Image from "next/image.js";
+import { base } from "../data/base.js";
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -23,7 +25,14 @@ export default function Navbar() {
       <div className="mx-auto flex items-center justify-between">
         {/* Brand Logo */}
         <Link href="/" className="text-2xl font-bold tracking-tight text-black">
-          Logo{" "}
+          {" "}
+          <Image
+            alt={`${base.name} logo`}
+            src="/assets/logo.webp"
+            width={40}
+            height={40}
+            className="brightness-0"
+          ></Image>
         </Link>
 
         {/* Desktop Navigation */}
