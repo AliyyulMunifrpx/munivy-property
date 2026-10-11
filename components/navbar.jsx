@@ -91,7 +91,7 @@ export default function Navbar() {
             ))}
           </ul>
           <Link
-            href="/contact"
+            href="/kontak"
             onClick={() => setIsOpen(false)}
             className="w-full text-center px-4 py-2 bg-primary text-white text-sm font-bold rounded-full hover:bg-black transition-colors duration-300 mt-2"
           >
